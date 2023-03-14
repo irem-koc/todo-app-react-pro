@@ -7,6 +7,7 @@ const ContextProvider = ({ children }) => {
     const [show, setShow] = useState(false);
     const [date_input, setDate_input] = useState("");
     const [title_input, setTitle_input] = useState("");
+    const [todos, setTodos] = useState([]);
     const values = {
         username,
         setUsername,
@@ -16,6 +17,8 @@ const ContextProvider = ({ children }) => {
         setDate_input,
         title_input,
         setTitle_input,
+        todos,
+        setTodos,
     };
     return <Context.Provider value={values}>{children}</Context.Provider>;
 };

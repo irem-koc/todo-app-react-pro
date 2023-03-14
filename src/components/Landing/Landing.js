@@ -2,9 +2,10 @@ import React, { useContext } from "react";
 import { Context } from "../../context/Context";
 import Modal from "../Modal/Modal";
 import TodoItem from "../TodoItem/TodoItem";
+import TodoList from "../TodoList/TodoList";
 import "./Landing.css";
 const Landing = () => {
-    const { setShow} = useContext(Context)
+    const { setShow, todos} = useContext(Context)
     return (
         <div className="landing">
             <div className="title">
@@ -17,7 +18,10 @@ const Landing = () => {
                 </div>
                 <Modal />
             </div>
-            <TodoList />
+            {
+                todos.length>0 && (<TodoList />)
+            }
+            
             
         </div>
     );
