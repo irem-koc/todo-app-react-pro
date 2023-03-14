@@ -1,12 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Signinup.css";
 const Signinup = () => {
-  return (
-    <div>
-        <button> <Link to="/main">Sign In</Link> </button>
-    </div>
-  )
-}
+    return (
+        <div className="signin">
+            <h2>Username</h2>
+            <input type="text" className="input-username" />
 
-export default Signinup
+            <Link to="/main">
+                <button className="button-continue">Continue</button>
+            </Link>
+        </div>
+    );
+};
+
+export default Signinup;

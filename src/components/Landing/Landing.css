@@ -1,0 +1,45 @@
+
+.title>h1 {
+    position: absolute;
+    top: 56px;
+    left: 56px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-task {
+    border: none;
+    width: 163px;
+    height: 28px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8F8F8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 42px;
+    gap: 10px;
+    position: absolute;
+    width: 256px;
+    height: 44px;
+    left: 1128px;
+    top: 137px;
+    background: #800080;
+    box-shadow: 4px 4px 16px rgba(39, 39, 39, 0.25), inset -4px -4px 16px rgba(39, 39, 39, 0.1), inset 4px 4px 16px rgba(39, 39, 39, 0.07);
+    border-radius: 4px;
+}
+.add-task:active{
+    transform: translateY(1.9px)
+}

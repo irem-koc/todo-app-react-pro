@@ -1,0 +1,74 @@
+.signin {
+    padding: 0px;
+    position: relative;
+    width: 400px;
+    height: 204px;
+    margin: 0px auto;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.input-username {
+    background: #D0CAD9;
+    width: 380px;
+    height: 24px;
+    outline: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #272727;
+    gap: 10px;
+}
+
+.button-continue {
+
+    border: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 42px;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 64px;
+    width: 256px;
+    height: 44px;
+
+    /* Purple */
+
+    background: #800080;
+    /* Button Effect */
+
+    box-shadow: 4px 4px 16px rgba(39, 39, 39, 0.25), inset -4px -4px 16px rgba(39, 39, 39, 0.1), inset 4px 4px 16px rgba(39, 39, 39, 0.07);
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #F8F8F8;
+}
+
+a {
+
+    text-decoration: none;
+}
