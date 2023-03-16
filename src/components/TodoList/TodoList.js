@@ -8,12 +8,12 @@ const TodoList = () => {
     return (
         <div className="todo-list">
             {todos.map((todo, i) => (
-                <div className="date-todo">
+                <div key={i} className="all-todo">
                     <div className="date">
                         <img src="./pics/todo-icon.png" alt="todo" />
                         {todo.history}
                     </div>
-                    <TodoItem key={i} todo={todo} />
+                    <TodoItem todo={todo} />
                 </div>
             ))}
         </div>

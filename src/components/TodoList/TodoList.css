@@ -1,39 +1,14 @@
 .todo-list {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 720px;
-    height: 220px;
-    left: 56px;
-    top: 185px;
-}
-
-.date {
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     align-items: center;
-    padding: 0px;
-    gap: 8px;
-
     position: absolute;
     width: 252px;
     height: 32px;
-    top: -60px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height */
-
-
-    color: #000000;
+    left: 56px;
+    top: 137px;
 }
-.date-todo{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
+
+.all-todo {}

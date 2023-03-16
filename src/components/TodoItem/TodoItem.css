@@ -1,7 +1,6 @@
 .todo-row {
     display: flex;
-    flex-direction: row;
-    align-items: center;;
+    flex-direction: row-reverse;
     padding: 0px;
 
     width: 720px;
@@ -16,85 +15,4 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-}
-
-.first-section-todo {
-    width: 20px;
-    height: 20px;
-    padding: 12px;
-    /* Grey */
-    border-right: 2px solid black;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.pencil {
-    width: 19.2px;
-    height: 24px;
-    padding: 10px;
-    /* Black */
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.delete {
-    padding: 10px;
-    /* Black */
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.second-section-todo {
-    width: 590px;
-    height: 28px;
-
-    /* T1 */
-
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height */
-
-
-    /* Grey */
-
-    color: #000;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.todo-item{
-    display: flex;
-    border:1px solid black;
-    justify-content: center;
-    align-items: center;
-}
-.third-section-todo{
-    height: 100%;
-    border-left: 2px solid black;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-
-}
-.delete{
-    border-left: 2px solid black;
 }
